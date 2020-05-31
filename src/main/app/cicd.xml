@@ -13,5 +13,6 @@ http://www.mulesoft.org/schema/mule/vm http://www.mulesoft.org/schema/mule/vm/cu
 		<http:listener config-ref="HTTP_Listener_Configuration" path="/cicd" doc:name="HTTP"/>
 		<set-payload value="a" doc:name="Set Payload"/>
 		<logger message="sample" level="INFO" doc:name="Logger"/>
+		<set-payload value="hyd" doc:name="Set Payload"/>
 	</flow>
 </mule>
